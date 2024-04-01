@@ -10,8 +10,9 @@ practise dart programming lanuage
 - function 
 - Class
 
-- [ ] day2 Class Constructor, const objects
+- [x] day2 Class Constructor, const objects
 - long-form
 - short-form
+- nullability
 
 
