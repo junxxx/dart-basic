@@ -3,8 +3,15 @@ practise dart programming lanuage
 
 
 ## progress
-day1
-[ ] Class
-day2 
-[ ] Constructor
+- [x] day1
+- data type 
+- control flow 
+- loop
+- function 
+- Class
+
+- [ ] day2 Class Constructor, const objects
+- long-form
+- short-form
+
 
