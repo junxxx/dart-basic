@@ -6,6 +6,9 @@ void main(List<String> args) {
   print(app);
   final anonymousApp = App.anonymous();
   print(anonymousApp);
+  var game = App.game('game');
+  print(game);
+  print(game == App.game('game'));
   var h = Handler("dev", 19);
   h.addItem("lang");
   h.addItem("name");
