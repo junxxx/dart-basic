@@ -13,17 +13,7 @@ class App {
 
   // factory constructor
   factory App.game(String name) {
-    if (_instance.containsKey(name)) {
-      App? app = _instance[name];
-      if (app == null) {
-        app = App._setVariable(name);
-      }
-      return app;
-    }else {
-      final app = App._setVariable(name);
-      _instance[name] = app;
-      return app;
-    }
+    return _instance.putIfAbsent(name, () => App._setVariable(name));
   }
 
   @override
